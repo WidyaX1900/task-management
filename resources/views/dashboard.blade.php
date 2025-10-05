@@ -59,4 +59,31 @@
                 veritatis quaerat dolor.</p>
         </x-card>
     </div>
+
+    <div class="fixed top-0 left-0 w-full h-full px-8 z-50 bg-black/85 flex justify-center items-center">
+        <div class="bg-gray-900 p-3 w-full rounded border-2 border-gray-600 drop-shadow">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="text-xl font-bold">Create Project</h2>
+                <span class="material-icons text-2xl">
+                    close
+                </span>
+            </div>
+            <form action="" method="post">
+                <x-input-container>
+                    <label for="name">Project Name</label>
+                    <x-input-field type="text" id="name" placeholder="Project Name" />
+                </x-input-container>
+                <x-input-container>
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description" cols="30" rows="8" placeholder="Description"
+                        class="block w-full rounded bg-gray-800 mt-2"></textarea>
+                </x-input-container>
+                <div class="my-6">
+                    <button type="submit" class="py-2 px-3 transition-all duration-75 bg-blue-600 active:bg-blue-800 active:scale-90 rounded font-bold flex justify-center items-center w-full">
+                        Create Project
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
 </x-layout>
