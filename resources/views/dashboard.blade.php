@@ -1,7 +1,7 @@
 <x-layout>
     <h1 class="text-xl">My Projects</h1>
     <div class="my-4">
-        <x-add-button>New Project</x-add-button>
+        <x-add-button id="createProjectBtn">New Project</x-add-button>
     </div>
     <div id="projectList">
         <x-card>
@@ -63,7 +63,7 @@
     <x-my-modal id="createProjectModal">
         <div class="flex items-center justify-between mb-4">
             <h2 class="text-xl font-bold">Create Project</h2>
-            <span class="material-icons text-2xl">
+            <span id="closeIcon" class="material-icons text-2xl">
                 close
             </span>
         </div>
