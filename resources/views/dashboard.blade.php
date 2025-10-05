@@ -63,7 +63,7 @@
     <x-my-modal id="createProjectModal">
         <div class="flex items-center justify-between mb-4">
             <h2 class="text-xl font-bold">Create Project</h2>
-            <span id="closeIcon" class="material-icons text-2xl">
+            <span id="closeIcon" class="material-icons text-2xl cursor-pointer">
                 close
             </span>
         </div>
