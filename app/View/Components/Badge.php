@@ -8,20 +8,12 @@ use Illuminate\View\Component;
 
 class Badge extends Component
 {
-    public ?string $color;
-    
     /**
      * Create a new component instance.
      */
-    public function __construct(?string $type)
+    public function __construct()
     {
-        if($type === 'warning') {
-            $this->color = 'bg-yellow-200 text-amber-600';
-        } else if($type === 'success') {
-            $this->color = 'bg-green-200 text-green-700';
-        } else if($type === 'danger') {
-            $this->color = 'bg-red-200 text-red-700';
-        }
+        
     }
 
     /**

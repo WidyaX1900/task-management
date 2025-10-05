@@ -7,7 +7,7 @@
         <x-card>
             <div class="flex items-start justify-between mb-4">
                 <h2 class="font-bold">Project Title</h2>
-                <x-badge type="warning">
+                <x-badge type="ongoing">
                     <span class="material-icons me-1 text-sm">access_time_filled</span>
                     <span>Ongoing</span>
                 </x-badge>
